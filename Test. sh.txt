@@ -22,3 +22,4 @@ xcopy "$local_folder" "$stag_folder" /E /I /H /Y
 
 
 Yes!!!! We have achieved!!!! 
+yahoooo!!!!
