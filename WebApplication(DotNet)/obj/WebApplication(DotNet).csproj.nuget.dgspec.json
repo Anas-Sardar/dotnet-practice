@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Visual-Projects\\WebApplication(DotNet)\\WebApplication(DotNet)\\WebApplication(DotNet).csproj": {}
+    "C:\\Auto\\Dev-auto\\WebApplication(DotNet)\\WebApplication(DotNet).csproj": {}
   },
   "projects": {
-    "C:\\Visual-Projects\\WebApplication(DotNet)\\WebApplication(DotNet)\\WebApplication(DotNet).csproj": {
+    "C:\\Auto\\Dev-auto\\WebApplication(DotNet)\\WebApplication(DotNet).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Visual-Projects\\WebApplication(DotNet)\\WebApplication(DotNet)\\WebApplication(DotNet).csproj",
+        "projectUniqueName": "C:\\Auto\\Dev-auto\\WebApplication(DotNet)\\WebApplication(DotNet).csproj",
         "projectName": "WebApplication(DotNet)",
-        "projectPath": "C:\\Visual-Projects\\WebApplication(DotNet)\\WebApplication(DotNet)\\WebApplication(DotNet).csproj",
+        "projectPath": "C:\\Auto\\Dev-auto\\WebApplication(DotNet)\\WebApplication(DotNet).csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Visual-Projects\\WebApplication(DotNet)\\WebApplication(DotNet)\\obj\\",
+        "outputPath": "C:\\Auto\\Dev-auto\\WebApplication(DotNet)\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
